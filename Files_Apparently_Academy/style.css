@@ -1,0 +1,281 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #EFF2F8;
+    display: flex;
+   
+
+}
+
+.SideBars{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.LeftBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+    width: 230px;
+    background-color: white;
+}
+
+.FilesLogo{
+    margin-left: 32px;
+    margin-top: 32px;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.LogoImg{
+    position: absolute;
+    margin-top: 7px;
+
+}
+
+.LogoText{
+    position: relative;
+
+}
+
+.UploadButtonDiv{
+    background: #7646FF;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 166px;
+    height: 36px;
+
+    margin-top: 22px;
+    margin-left: 32px;
+
+}
+
+.UploadButtonDiv img{
+    margin-left: 20px;
+
+}
+
+.UploadButtonDiv button{
+    border: none;
+    background: #7646FF;
+    border-radius: 10px;
+
+}
+
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.006em;
+    color: #EFF2F8;
+
+    margin-left: 8px;
+
+}
+
+.items{
+
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item{
+    width: 100%;
+    height: 28px;
+
+    padding-bottom: 16px; 
+    margin-bottom: 16px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.item:hover{
+    background-image: url(obrazky/Rectangle\ 42.svg);
+    background-repeat: no-repeat;
+    background-size: 22px 30px;
+    background-position-y: 0px;
+    background-position-x: -10px;
+
+    cursor: pointer;
+
+}
+
+.item h2{
+    color: #292F33;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.006em;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 16px;
+    padding-top: 14px;
+
+}
+
+
+.item img{
+    padding-left: 32px;
+    padding-top: 10px;
+}
+
+.Info{
+    display: flex;
+    flex-direction: column;
+
+
+
+    margin-left: 32px;
+    
+}
+
+.Info p{
+    margin-left: 16px;
+
+    color: #292F33;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+
+}
+
+.Misto{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Profile{
+    margin-top: 16px;
+    margin-bottom: 48px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ProfileText{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 16px;
+}
+
+.ProfileText h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.011em;
+    color: #292F33;
+}
+
+.ProfileText h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+
+    display: flex;
+    align-items: center;
+
+    color: #949799;
+
+    margin-top: 2px;
+
+}
+
+.RightBar{
+    display: flex;
+    flex-direction: column;
+
+
+    height: 100%;
+    width: 268px;
+    background-color: white;
+
+
+}
+
+.photoPDF{
+    width: 102px;
+    height: 102px;
+
+    margin-top: 48px;
+    margin-left: 72px;
+    filter: drop-shadow(1px 1px 16px rgba(0, 0, 0, 0.24));
+    border-radius: 10px;
+    background-image: url(obrazky/ross-stone-USwiR08Zh1Q-unsplash.png);
+
+    
+}
+
+.Panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px;
+    gap: 8px;
+    
+}
+
+.Panel img{
+    width: 24px;
+    height: 24px;s
+    
+}
+
+.Podminky{
+    padding: 81px 12px 0 0;
+
+}
+
+

@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'TWKLausanne';
+
+}
+
+@font-face {
+  font-family: 'TWKLausanne';
+  src: url('fonts/TWKLausanne-200.otf') format('opentype');
+
+  font-weight: normal;
+  font-style: normal;
+  }
+

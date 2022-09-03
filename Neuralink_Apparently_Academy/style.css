@@ -1,0 +1,233 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  #EFEFEF;
+    display: flex;
+    
+}
+
+.Logo{
+
+    margin-top: 24px;
+    padding-left: 33px;
+
+
+
+
+}
+
+.Content{
+    padding-top: 230px;
+    padding-left: 87px;
+    padding-right: 170px;
+    padding-bottom: 347px;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.Content2{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+h1{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 78px;
+
+    color: black;
+
+    align-items: flex-start;
+
+}
+
+.Cards{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.CardLeft{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+    width: 527px;
+    height: 297px;
+
+    margin-top: 74px;
+
+}
+
+
+.CardLeft h2{
+    color: black;
+
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    margin-left: 39px;
+    margin-top: 46px;
+}
+
+.CardLeft p{
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    
+    color: #999999;
+    
+    padding-left: 39px;
+    padding-top:19px
+    
+}
+
+.TopButton{    
+    margin-top: 29px;
+    margin-left: 39px;
+
+    width: 442px;
+    height: 44px;
+    background-color: #07DED2;
+    
+}
+
+.TopButton h3{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
+    
+    padding-top: 14px;
+    padding-left: 15px;
+
+}
+
+.BottomButton{
+    margin-top: 17px;
+    margin-left: 39px;
+
+    width: 442px;
+    height: 44px;
+    background-color: #07DED2;
+
+}
+
+.BottomButton h3{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
+
+    padding-top: 14px;
+    padding-left: 15px;
+}
+
+.CardRight{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+    width: 527px;
+    height: 297px;
+
+    margin-top: 74px;
+    margin-left: 46px;
+
+}
+
+.CardRight h2{
+    margin-top: 48px;
+    margin-left: 39px;
+
+    color: black;
+
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+
+}
+
+.CardRight p{
+    margin-top: 16px;
+    margin-left: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    
+    color: #999999;
+
+}
+
+.RightButton{
+    margin-top: 24px;
+    margin-left: 39px;
+
+    width: 442px;
+    height: 44px;
+    background-color: #0A2437;
+}
+
+.RightButton h3{
+    margin-top: 14px;
+    margin-left: 15px;
+
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
+}
+
+.Arrow{
+    width: 16px;
+    height: 16px;
+
+    margin-left: 410px;
+    margin-top: -14px;
+
+}
+
+.TopButton:hover{
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.BottomButton:hover{
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.RightButton:hover{
+    opacity: 60%;
+    cursor: pointer;
+}
